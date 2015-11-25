@@ -1,0 +1,36 @@
+<div class="container">
+	<div class="row">
+		<div class="col-xs-12 col-md-8 col-md-offset-2">
+			<div id="search-container">
+				<h2 class="font1">Faça uma busca</h2>
+				<form id="main-search-form" name="searchForm" action="{{'#/results/'+ hashtag + '/' + results_count}}">
+					<div class="main-form-area-1">
+						<div class="row">
+							<div class="col-xs-12 col-md-7">
+								<input type="text" ng-model="hashtag" class="form-control" placeholder="Busque por uma #hashtag" required>
+							</div>
+							<div class="col-xs-12 col-md-5">
+								<input type="text" class="form-control" placeholder="Nº de resultados" ng-model="results_count" required>
+							</div>
+						</div>
+					</div>
+					<div class="main-form-area-2">
+						<div class="row" style="display:none">
+							<div class="col-xs-12 col-md-6">
+								<label class="radio-inline">
+									<input type="radio" name="inlineRadioOptions" id="justPositiveResp" value="option1"> Quero apenas os resultados positivos
+								</label>
+							</div>
+							<div class="col-xs-12 col-md-6">
+								<label class="radio-inline">
+									<input type="radio" name="inlineRadioOptions" id="justNegativeResp" value="option2"> Quero apenas os resultados negativos
+								</label>
+							</div>
+						</div>
+					</div>
+					<input type="submit" class="btn btn-primary btn-lg btn-block" value="Enviar busca!">
+				</form>
+			</div>
+		</div>
+	</div>
+</div>

@@ -1,0 +1,64 @@
+/* Fonts */
+.font1 {
+  font-family: 'Arvo', serif;
+}
+.font2 {
+  font-family: 'Roboto', sans-serif;
+}
+/** Enjoy! **/
+#main-header {
+  background: -webkit-linear-gradient(left, #67bd89, #68f7a1);
+  /* For Safari 5.1 to 6.0 */
+  background: -o-linear-gradient(right, #67bd89, #68f7a1);
+  /* For Opera 11.1 to 12.0 */
+  background: -moz-linear-gradient(right, #67bd89, #68f7a1);
+  /* For Firefox 3.6 to 15 */
+  background: linear-gradient(to right, #67bd89, #68f7a1);
+  /* Standard syntax */
+  color: #fff;
+  text-align: center;
+  padding: 50px 0;
+  font-family: 'Roboto', sans-serif;
+}
+#main-header h1 {
+  font-family: 'Arvo', serif;
+  font-size: 60px;
+  font-weight: 700;
+}
+#main-header .header-description {
+  width: 430px;
+  margin: 0 auto;
+  font-size: 18px;
+}
+#search-container {
+  text-align: center;
+  margin-top: 70px;
+}
+#search-container h2 {
+  margin-bottom: 35px;
+}
+.main-form-area-2 {
+  margin: 30px 0;
+}
+.twitter-status {
+  background: #f2f2f2;
+  padding: 15px;
+  margin-bottom: 30px;
+  border-radius: 10px;
+}
+.instagram-img-container {
+  float: left;
+  margin: 0 10px 10px 0;
+}
+.instagram-img-container img {
+  width: 170px;
+  height: 170px;
+}
+.status-analysing {
+  padding: 20px;
+}
+#prcApprovalChart,
+#frequentlyWordsChart {
+  width: 100%;
+  height: auto;
+}
